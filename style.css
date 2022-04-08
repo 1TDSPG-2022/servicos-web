@@ -19,3 +19,19 @@ nav li{
     padding: 10px;
     outline: 10px solid rgba(113, 113, 236, 0.603);
 }
+header>h1{
+    padding: 10px;
+    margin: 1.2em;
+}
+
+
+section>a{
+    margin: 1.2em;
+    width: 300px;
+    height: 50px;
+    border-width: 10px;
+    border-color: rgba(86, 74, 74, 0.737);
+    padding: 10px;
+    outline: 10px solid rgba(126, 78, 78, 0.562);
+    
+}
