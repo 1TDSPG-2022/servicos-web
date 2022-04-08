@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    
+    background-image: linear-gradient(to right, white, rgba(128, 128, 128, 0.678));
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin: 1.2em;
+    width: 300px;
+    height: 50px;
+    border-width: 10px;
+    border-color: rgba(255, 93, 93, 0.555);
+    padding: 10px;
+    outline: 10px solid rgba(113, 113, 236, 0.603);
+}
