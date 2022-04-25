@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SERVIÇOS</title>
 </head>
+
 <body>
-    
+
     <nav>
         <a href="#">Serviços WEB</a>
         <ul type="square">
             <li><a href="./pagina2.html" target="_blank">Página 2</a></li>
-            <li><a href="./paginas/pagina3.html" target="_blank">Página 3</a></li> 
-            <li><a href="./paginas-ext/outras-paginas/pagina4.html" target="_blank">Página 4</a></li>            
-        <ul>
+            <li><a href="./paginas/pagina3.html" target="_blank">Página 3</a></li>
+            <li><a href="./paginas-ext/outras-paginas/pagina4.html" target="_blank">Página 4</a></li>
+            <ul>
     </nav>
 
     <header id="topo">
@@ -23,7 +25,8 @@
             Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
         </p>
         <p>
-            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado.
+            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no
+            mercado.
         </p>
         <p>
             WorkShops com os mais distintos especialistas da área.
@@ -35,55 +38,71 @@
     </header>
 
     <section id="sobre">
-        <h2> Sobre </h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, aliquid.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eligendi!
-        </p>
-        <a href="#contato">Ver mais...</a>
+        <h2>Sobre</h2>
+        <p>A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!  
+            </p>
+        <a href="#contato" class="botao">Contatrate Agora</a>
     </section>
-
-    <section id="servico">
-        <h2> Serviços </h2>
+    <section id="servicos">
+        <h2>Serviços</h2>
         <div>
-            <p>
-                Desenvolvimento WEB
-            </p>
+            <img src="./img/desenvolvimento.jpg" alt="Computador">
+            <h3>Desenvolvimento</h3>
+            <p>Realizamos o serviço de desenvolvimento Web com as melhores tecnologias do mercado.</p>
         </div>
         <div>
-            <p>
-                Desenvolvimento WEB
-            </p>
+            <img src="./img/cursos.png" alt="Notebook">
+            <h3>Cursos</h3>
+            <p>Oferecemos minicursos remotos, para as linguagens que estão em alta na Web hoje.</p>
         </div>
         <div>
-            <p>
-                Desenvolvimento WEB
-            </p>
+            <img src="./img/eventos.jpg" alt="Fone de Ouvido">
+            <h3>WorkShops</h3>
+            <p>Produzimos Workshops para todo o país.</p>
+        </div>
+        <div>
+            <img src="./img/seguranca-info.png" alt="Textos">
+            <h3>Segurança da Informação</h3>
+            <p>Criamos projetos de INFOMATION SECURITY para grandes empresas, consulte nos.</p>
         </div>
     </section>
-
     <section id="imagens">
-
+        <h2>Imagens</h2>
+        <img src="./img/backbone.jpg" alt="rede de computadores">
+        <img src="./img/cidade.jpg" alt="cidade virtual">
+        <img src="./img/comunicao.jpg" alt="rede de fios">
+        <img src="./img/icones.png" alt="rede de icones">
+        <img src="./img/internet.jpg" alt="internet">
+        <img src="./img/rede.jpg" alt="rede virtual">
     </section>
-
     <section id="contato">
-        <h2> Contato </h2>
-        <p>
-            Fale conosco
-        </p>
         <div>
-            <p>
-                Email: <a href="#">email</a>
-            </p>
-        </div>
-        <div>
-            <p>
-                Telefone: <a href="#">telefone</a>
-            </p>
+            <form action="index.html" method="get ou post">
+                <fieldset>
+                    <legend>REGISTRO DE CONTATO</legend>
+                    <div>
+                        <label for="nrTelCliId">Telefone</label>
+                        <input type="tel" name="nrTelCli" id="nrTelCliId" placeholder="Digite o telefone.">
+                    </div>
+                    <div>
+                        <label for="emailCliId">Email</label>
+                        <input type="email" name="emailCli" id="emailCliId" placeholder="Digite o email.">
+                    </div>
+                    <div>
+                        <input type="submit" value="ENVIAR">
+                        <input type="reset" value="LIMPAR">
+                    </div>
+                </fieldset>
+            </form>
         </div>
     </section>
-    
+    <footer>
+        <a href="#topo">Voltar</a>
+        <p>Desenvolvido por <span>XXXX</span></p>
+        <p>Todos os direitos reservados. 2021&copy;</p>
+    </footer>
+
 </body>
+
 </html>
