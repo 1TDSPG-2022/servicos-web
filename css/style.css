@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+#topo{
+	background-image: url('../img/fundo-pc.jpg');
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+#topo h1{
+	text-align: center;
+}
+#topo p{
+	text-align: justify;
+}
+#topo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
+	display: inline;
+}
