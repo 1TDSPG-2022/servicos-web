@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2? family= Nunito:wght@200 & display=swap');
 
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
 header#topo{
     background-image: url('../imagens/img/fundo-pc.jpg');
     color: #fff;
@@ -18,3 +37,4 @@ header#topo{
     text-decoration: none;
     color: #fff;
 }
+
