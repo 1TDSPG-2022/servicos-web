@@ -1,117 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERVIÇOS</title>
-</head>
-
-<body>
-    
-    <nav>
-        <a href="#">Serviços WEB</a>
-        <ul type="square">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servico">Serviço</a></li>
-            <li><a href="#imagens">Imagens</a></li>       
-            <li><a href="#contato">Contato</a></li>   
-        <ul>
-    </nav>
-
-    <header id="topo">
-        <h1>Serviços Web Remotos</h1>
-        <p>
-            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
-        </p>
-        <p>
-            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado.
-        </p>
-        <p>
-            WorkShops com os mais distintos especialistas da área!
-        </p>
-        <p>
-            Segurança da Informação também é uma especialidade que dominamos.
-        </p>
-        <a href="#contato">Ver mais...</a>
-    </header>
-
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p><p>
-            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
-            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!  
-            </p>
-        <a href="#contato" class="botao">Contatrate Agora</a>
-    </section>
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <div>
-            <img src="./img/desenvolvimento.jpg" alt="Computador">
-            <h3>Desenvolvimento</h3>
-            <p>Realizamos o serviço de desenvolvimento Web com as melhores tecnologias do mercado.</p>
-        </div>
-        <div>
-            <img src="./img/cursos.png" alt="Notebook">
-            <h3>Cursos</h3>
-            <p>Oferecemos minicursos remotos, para as linguagens que estão em alta na Web hoje.</p>
-        </div>
-        <div>
-            <img src="./img/eventos.jpg" alt="Fone de Ouvido">
-            <h3>WorkShops</h3>
-            <p>Produzimos Workshops para todo o país.</p>
-        </div>
-        <div>
-            <img src="./img/seguranca-info.png" alt="Textos">
-            <h3>Segurança da Informação</h3>
-            <p>Criamos projetos de INFOMATION SECURITY para grandes empresas, consulte nos.</p>
-        </div>
-    </section>
-    <section id="imagens">
-        <h2>Imagens</h2>
-        <img src="./img/backbone.jpg" alt="rede de computadores">
-        <img src="./img/cidade.jpg" alt="cidade virtual">
-        <img src="./img/comunicao.jpg" alt="rede de fios">
-        <img src="./img/icones.png" alt="rede de icones">
-        <img src="./img/internet.jpg" alt="internet">
-        <img src="./img/rede.jpg" alt="rede virtual">
-    </section>
-    <section id="contato">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SERVIÇOS</title>
+        <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
         
-        <div>
-            <form action="index.html" method="GET">
-                <fieldset>
-                    <legend>CONTATO</legend>
-                    <div>
-                        <label for="nrTelClicId">Telefone</label>
-                        <input type="tel" name="nrTelClic" id="nrTelClicId" placeholder="Digite o telefone">
-                    </div>
-                    <div>
-                        <label for="emailClicId">Email</label>
-                        <input type="email" name="emailClic" id="emailClicId" placeholder="Digite o email">
-                    </div>
-                    <div>
-                        <input type="submit" value="ENVIAR">
-                        <input type="reset" value="LIMPAR">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        
-    </section>
-    <footer>
-        <a href="#topo">Voltar</a>
-        <p>Desenvolvido por <span>bu3n0</span></p>
-        <p>Todos os direitos reservados. 2021&copy;</p>
-    </footer>
+        <script src="./js/script.js" defer></script>
 
+        <script>
+            // ...Comentário de linha
+            /**
+             * ...Comentário de Bloco
+            **/
+            console.log('MSG GERADA NO HEAD ' + ' Olá Mundo')
+        </script>
 
+    </head>
+    <body>
+        <nav>
+            <div>
+                <!-- <a href="#" id="tit-logo">Equipe de Ponta</a> -->
+                <a href="#">Equipe de Ponta</a>
+                <ul>
+                    <li><a href="#sobre" class="font-google">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#imagens">Imagens</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
 
-</body>
+            <header id="topo">
+                <!-- Evento Javascript inline -->
+                <h1 onclick="alert('Olá mundo!')">Equipe de Ponta</h1>
+                <p>
+                Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
+                Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação também é uma especialidade que dominamos.               
+                </p>
+                <!-- Tranformar esse link em um botão com o css criando uma classe -->
+                    <a href="#servicos">Ver mais...</a>
+                <!-- Tranformar esse link em um botão com o css criando uma classe -->
+            </header>
 
-</html>
+            <section id="sobre">
+                <h2>Sobre</h2>
+                <p>
+                    A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                    Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!  
+                </p>
+                  <!-- Tranformar esse link em um botão com o css criando uma classe -->
+                    <a href="#contato">Contrate Agora</a>
+                  <!-- Tranformar esse link em um botão com o css criando uma classe -->
+            </section>
 
+            <section id="imagens">
+                <h2 class="font-google">Imagens</h2>
+                <img src="./img/backbone.jpg" alt="Backbone." width="100%">
+                <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+                <img src="./img/comunicao.jpg" alt="Entrelaçado de Fios." width="100%">
+                <img src="./img/icones.png" alt="Icones de Redes Sociais." width="100%">
+                <img src="./img/internet.jpg" alt="Grande rede Interativa." width="100%">
+                <img src="./img/rede.jpg" alt="Rede Virtual de Informações." width="100%">
+            </section>
+
+            <section id="servicos">
+
+                <h2>Serviços</h2>
+                <div>
+                    <img src="./img/desenvolvimento.jpg" alt="Tela de Computado." title="Desenvolvimento WEB" width="20%">
+                    <p>Desenvolvimento WEB</p>
+                </div>
+                <div>
+                    <img src="./img/cursos.png" alt="Notebook" title="Linguagens de Programação" width="20%">
+                    <p class="font-google">Minicursos remotos de linguagens</p>
+                </div>
+                <div>
+                    <img src="./img/eventos.jpg" alt="Fone de Ouvido" title="Eventos com Especialistas" width="20%">
+                    <p>WorkShops</p>
+                </div>
+                <div>
+                    <img src="./img/seguranca-info.png" alt="Nuvem de Palavras" title="Segurança de Dados" width="20%">
+                    <p>Segurança da Informação</p>
+                </div>
+            </section>
+
+            <section id="contato">
+
+                <div>
+                    <form action="index.html" method="POST">
+                        <fieldset>
+                            <legend>CONTATO</legend>
+                            <div>
+                                <label for="nmClienteId">Nome</label>
+                                <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome"/>
+                            </div>
+                            <div>
+                                <label for="telClienteId">Telefone</label>
+                                <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone"/>
+                            </div>
+                            <div>
+                                <label for="emailClienteId">Email</label>
+                                <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email"/>
+                            </div>
+                            <div>
+                                <label for="genClienteId">GÊNERO</label>
+                                <select name="genCliente" id="genClienteId">
+                                    <option value="m">Masculino</option>
+                                    <option value="f">Feminino</option>
+                                    <option value="o">Outros</option>
+                                </select>
+                                <div>
+                                    <fieldset>
+                                        <legend>GÊNERO</legend>
+
+                                        <label for="genClienteId1">Masculino</label>
+                                        <input type="radio" name="genClientes" id="genClienteId1" value="m" checked/>
+                                        
+                                        <label for="genClienteId2">Feminino</label>
+                                        <input type="radio" name="genClientes" id="genClienteId2" value="f"/>
+                                        
+                                        <label for="genClienteId3">Outros</label>
+                                        <input type="radio" name="genClientes" id="genClienteId3" value="o"/>
+                                    </fieldset>
+                                </div>                            
+                            </div>
+                            <div>
+                                <input type="submit" value="ENVIAR">
+                                <input type="reset" value="LIMPAR">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+              
+            </section>
+
+            <footer>
+                <a href="#topo">Voltar</a>
+                <p>Desenvolvido por PF0670.</p>
+                <p>Todos os direitos reservados. 2021&copy;</p>
+            </footer>
+
+            <script>
+                // ...Comentário de linha
+                /**
+                 * ...Comentário de Bloco
+                **/
+                console.log('MSG GERADA NO BODY ' + ' Olá Mundo')
+            </script>
+    </body>
+
+</html>  
 
 
 <!-- <h2>Contatos</h2>
