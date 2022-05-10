@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Yellowtail&display=swap');
+
+/*
+Declarar para o body fon family Nunito, sans-serif e color: #1c1c1c
+
+*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+	color: #1c1c1c;
+	background-color: dodgerblue;
+}
+
+
+/*
+	Declarar para h1,h2 e h3 a fontfamily Asap ou sans-serif e color:#000000
+*/
+
+h1, h2, h3{
+	font-family: 'Asap', sans-serif;
+	color: #FFF;
+}
+
+/* Colocar o estilo para os filhos de nav que são a
+	retirar a decoração do texto
+	cor:#FFFFFF
+	peso da fonte - 800
+	tamanho da fonte 32px
+	familia da fonte - YellowTailou serifada
+*/
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 800;
+	font-size: 32px;
+	font-family: "Yellowtail", serif;
+}
+
+
+/* Coloque para os filhos de nav que estao dentro de ul que sao li 
+	o texto alinhado ao centro e largura de 100%.
+*/
+nav ul li{
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Coloque para os filhos de nav que estao dentro de ul que estao dentro de li que são a.
+	o modo de visualização para inline-block
+	A margin interna para 10px no total.
+	Largura de 100%
+	Decoraçao do texto : none
+	cor #ffffff
+*/
+nav ul li a{
+	width: 100%;
+	text-decoration: none;
+	color:#ffffff;
+	display: inline-block;
+	padding: 10px;
+}
+
+#topo{
+	background-image: url('../img/fundo-pc.jpg');
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+#topo h1{
+	text-align: center;
+}
+#topo p{
+	text-align: justify;
+}
+#topo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
+	display: inline;
+}
+
+/* Criar a classe botão
+	cor de texto = branca
+	decoração do texto = nenhuma
+	margem interna = topo e rodape 10px / esquerda e direita 30px
+	cor de fundo = #191970
+	tamanho do texto = 0.9em
+	arrendodamento da borda = 3px
+
+
+*/
+.botao {
+ 	color: #fff;
+	 text-decoration: none;
+	 padding: 10px 30px;
+	 background-color: #191970;
+	 font-size: 0.9em;
+	 border-radius: 3px;
+	 
+}
+
+
+
+
+style.css
+
+/* Criar a classe botão */
+
+
+/* Seção sobre
+	h2 - cor do texto = branca
+	p - margem do rodapé = 40px mas coloque o valor em (EM)
+	p - largura max = 1000px
+	classe do botão = cor de fundo = #f1f1f1
+	classe do botão = cor do texto = #1c1c1c
+
+
+*/
+
+
+#sobre h2{
+	color: #ffffff;
+}
+
+#sobre p{
+	margin-bottom:2.5em;
+	max-width:1000px;
+}
+#sobre .botao{
+	background-color: #f1f1f1;
+	color:#1c1c1c;
+}
+
+
+	
+/* Seção sobre */
