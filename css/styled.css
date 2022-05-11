@@ -1,5 +1,82 @@
-form input{
-    border-radius: 5px;
-    margin: 0.20% 0;
-    display: block;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Yellowtail&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+    background-color: dodgerblue;
+}
+
+h1, h2, h3 {
+    font-family: 'Asap', sans-serif;
+    color: #FFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: "Yellowtail", serif;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+}
+
+#topo {
+    background-image: url('../img/fundo-pc.jpg');
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#topo h1 {
+    text-align: center;
+}
+
+#topo p {
+    text-align: justify;
+}
+
+#topo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.botao {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: 0.9em;
+    border-radius: 3px;
+
+}
+
+#sobre h2 {
+    color: #ffffff;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao {
+    background-color: #f1f1f1;
+    color: #1c1c1c;
 }
