@@ -75,5 +75,10 @@
     2. Crie uma div e adicione um elemento img com o id "img-lampada"
     3. Crie um evento para o botão ligar, que adicione o atributo src da imagem com o valor "img/lampada-acesa.png"
     4. Crie um evento para o botão desligar, que adicione o atributo src da imagem com o valor "img/lampada-apagada.png"
-
 */
+function ligar(){
+    document.getElementById("img-lampada").src="./img/pic_off_2.png"
+}
+function desligar(){
+    document.getElementById("img-lampada").src="./img/pic_off_1.png"
+}
