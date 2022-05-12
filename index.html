@@ -1,79 +1,217 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <script src="./js/script.js" defer></script>
+    <script>
+      console.log('MSG GERADA NO HEAD ' + ' Olá Mundo')
+    </script>
     <title>SERVIÇOS</title>
-</head>
-<body>
-    
-    <nav> 
-        <a href="#">Serviços WEB</a>  
-        <ul type="square">
-            <li><a href="#sobre">Sobre</a></li> 
-            <li><a href="#servicos">Serviços</a></li> 
-            <li><a href="#imagens">Imagens</a></li> 
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="pagina2.html" target="_blank">Página 2</a></li>
-            <li><a href="paginas/pagina3.html" target="_blank">Página 3</a></li>
-            <li><a href="paginas-ext/outras-paginas/pagina4.html" target="_blank">Página 4</a></li>
-        </ul>
+  </head>
+
+  <body>
+    <nav>
+      <a href="#">Serviços WEB</a>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#imagens">Imagens</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="pagina2.html" target="_blank">Página 2</a></li>
+        <li><a href="paginas/pagina3.html" target="_blank">Página 3</a></li>
+        <li>
+          <a href="paginas-ext/outras-paginas/pagina4.html" target="_blank"
+            >Página 4</a
+          >
+        </li>
+      </ul>
     </nav>
 
     <header id="topo">
-        <h1>Serviços Web Remotos</h1>
-        <p>
-            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
-        </p>
-        <p>
-            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. 
-        </p>
-        <p>
-            WorkShops com os mais distintos especialistas da área.
-        </p>
-        <p>
-            Segurança da Informação também é uma especialidade que dominamos.
-        </p>
-        <a href="#contato">Ver mais...</a>
+      <h1 onclick="alert('Olá Mundo!')">Serviços Web Remotos</h1>
+      <p>
+        Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas
+        frentes. Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos
+        remotos de linguagens que estão em alta no mercado. WorkShops com os
+        mais distintos especialistas da área. Segurança da Informação também é
+        uma especialidade que dominamos.
+      </p>
+      <a class="button" href="#contato">Ver mais...</a>
     </header>
-    
+
     <section id="sobre">
-        <h2>Sobre</h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ducimus velit eaque optio quae modi, officiis, exercitationem laborum eveniet facere sit maiores sequi ad, assumenda fugit illum nobis minima ipsum?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus mollitia atque cum quam, dicta id reiciendis voluptate velit nisi adipisci iure at. Minima aut porro numquam eligendi maxime magnam accusantium.
-        </p>
-        <a href="#contato">Ver mais...</a>
+      <h2>Sobre</h2>
+      <p>
+        A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o
+        intuito de ajudar o próximo, conseguiu construir uma história de sucesso
+        ao longo de um ano de vida. Não falamos por nós, deixamos nosso trabalho
+        e nossos clientes falarem!
+      </p>
+      <a class="button" href="#contato">Contrate Agora</a>
+    </section>
+
+    <section id="imagens">
+      <h2 class="font-google">Imagens</h2>
+      <img src="./img/backbone.jpg" alt="Backbone." width="100%" />
+      <img src="./img/cidade.jpg" alt="Cidade." width="100%" />
+      <img src="./img/comunicao.jpg" alt="Entrelaçado de Fios." width="100%" />
+      <img src="./img/icones.png" alt="Icones de Redes Sociais." width="100%" />
+      <img
+        src="./img/internet.jpg"
+        alt="Grande rede Interativa."
+        width="100%"
+      />
+      <img
+        src="./img/rede.jpg"
+        alt="Rede Virtual de Informações."
+        width="100%"
+      />
     </section>
 
     <section id="servicos">
-        <h2>Serviços</h2>
-
-        <div>
-            <p>Desenvolvimento Web</p>
-        </div>
-        
-        <!-- + 3 Serviços -->
+      <h2>Serviços</h2>
+      <div>
+        <img
+          src="./img/desenvolvimento.jpg"
+          alt="Tela de Computado."
+          title="Desenvolvimento WEB"
+          width="20%"
+        />
+        <p>Desenvolvimento WEB</p>
+      </div>
+      <div>
+        <img
+          src="./img/cursos.png"
+          alt="Notebook"
+          title="Linguagens de Programação"
+          width="20%"
+        />
+        <p class="font-google">Minicursos remotos de linguagens</p>
+      </div>
+      <div>
+        <img
+          src="./img/eventos.jpg"
+          alt="Fone de Ouvido"
+          title="Eventos com Especialistas"
+          width="20%"
+        />
+        <p>WorkShops</p>
+      </div>
+      <div>
+        <img
+          src="./img/seguranca-info.png"
+          alt="Nuvem de Palavras"
+          title="Segurança de Dados"
+          width="20%"
+        />
+        <p>Segurança da Informação</p>
+      </div>
     </section>
-
-
-    <section id="imagens"></section>
-    <!-- Imagem não precisa -->
 
     <section id="contato">
-        <!-- 
-            h2 com o texto = Contato
-            p = Fale Conosco
-            02 divs
-            Dentro das divs coloque um p e dentro coloque um a.
-            Dentro de cada a coloque respectivamente.
-            Um email e um telefone 
-         -->
+      <div>
+        <form action="index.html" method="POST">
+          <fieldset>
+            <legend>CONTATO</legend>
+            <div>
+              <label for="nmClienteId">Nome</label>
+              <input
+                type="text"
+                name="nmCliente"
+                id="nmClienteId"
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div>
+              <label for="telClienteId">Telefone</label>
+              <input
+                type="tel"
+                name="telCliente"
+                id="telClienteId"
+                placeholder="Digite seu telefone"
+              />
+            </div>
+            <div>
+              <label for="emailClienteId">Email</label>
+              <input
+                type="email"
+                name="emailCliente"
+                id="emailClienteId"
+                placeholder="Digite seu email"
+              />
+            </div>
+            <div>
+              <label for="genClienteId">GÊNERO</label>
+              <select name="genCliente" id="genClienteId">
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+                <option value="o">Outros</option>
+              </select>
+              <div>
+                <fieldset>
+                  <legend>GÊNERO</legend>
+
+                  <label for="genClienteId1">Masculino</label>
+                  <input
+                    type="radio"
+                    name="genClientes"
+                    id="genClienteId1"
+                    value="m"
+                    checked
+                  />
+
+                  <label for="genClienteId2">Feminino</label>
+                  <input
+                    type="radio"
+                    name="genClientes"
+                    id="genClienteId2"
+                    value="f"
+                  />
+
+                  <label for="genClienteId3">Outros</label>
+                  <input
+                    type="radio"
+                    name="genClientes"
+                    id="genClienteId3"
+                    value="o"
+                  />
+                </fieldset>
+              </div>
+            </div>
+            <div>
+              <input type="submit" value="ENVIAR" />
+              <input type="reset" value="LIMPAR" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </section>
 
-</body>
+    <footer>
+      <a href="#topo">Voltar</a>
+      <p>Desenvolvido por PF0670</p>
+      <p>Todos os direitos reservados. 2021&copy;</p>
+    </footer>
+
+    <script>
+      console.log('MSG GERADA NO BODY' + ' Olá Mundo')
+    </script>
+  </body>
 </html>
+
+<!-- <section id="contato">
+    <h2>Contatos</h2>
+    <p>Fale conosco</p>
+    <div>
+        <img src="./img/tel.png" alt="icone de telefone">
+        <p><a href="tel:11987344534">(11)98734-4534</a></p>
+    </div>
+    <div>
+        <img src="./img/mail.png" alt="icone de email">
+        <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+    </div>
+</section> -->

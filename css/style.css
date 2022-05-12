@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&family=Nunito:wght@400;500&family=Yellowtail&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #1c1c1c;
+  background-color: dodgerblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Asap', sans-serif;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Yellowtail', serif;
+}
+
+nav ul li {
+  display: inline;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  width: 100;
+  text-decoration: none;
+  color: #fff;
+}
+
+#topo {
+  background-image: url('../img/fundo-pc.jpg');
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+#topo h1 {
+  text-align: center;
+}
+
+#topo p {
+  text-align: justify;
+}
+
+#topo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #191970;
+  font-size: 0.9em;
+  border-radius: 3px;
+}
+
+#sobre h2 {
+  color: #fff;
+}
+
+#sobre p {
+  margin-bottom: 2.5em;
+  max-width: 1000px;
+}
+
+#sobre .button {
+  background-color: #f1f1f1;
+  color: #1c1c1c;
+}
