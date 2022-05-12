@@ -76,3 +76,15 @@
     3. Crie um evento para o botão ligar, que adicione o atributo src da imagem com o valor "img/lampada-acesa.png"
     4. Crie um evento para o botão desligar, que adicione o atributo src da imagem com o valor "img/lampada-apagada.png"
 */
+
+const lightBulb = document.querySelector('.lightBulb')
+
+function switchLampOn() {
+  lightBulb.src = '../img/pic_on.gif'
+  lightBulb.alt = 'Light bulb switched on'
+}
+
+function switchLampOff() {
+  lightBulb.src = '../img/pic_off.gif'
+  lightBulb.alt = 'Light bulb switched off'
+}
