@@ -5,36 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
+        <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
         
-        <link rel="stylesheet" href="./css/main.css">
+        <script src="./js/script.js" defer></script>
 
-        <style>
-            body{
-               font-family: 'Courier New';
-            }
-        </style>
-
+        <script>
+            // ...Comentário de linha
+            /**
+             * ...Comentário de Bloco
+            **/
+            console.log('MSG GERADA NO HEAD ' + ' Olá Mundo')
+        </script>
 
     </head>
-    <body style="font-family:'Gill Sans MT';">
+    <body>
         <nav>
             <div>
-                <button class="font-google">
-                    <span>CLICK</span>
-                </button>
-            </div>
-            <!--
-                <div>
-                    <ul> unordered list
-                        <li><a href="#sobre">Sobre</a></li>  List item
-                    </ul>
-                </div>
-                
-                Fórmula do Emmet para criação dinâmica de estrutura
-                div>ul>li*4>a[href="#"]>{Sobre}
-            -->
-            
-            <div>
+                <!-- <a href="#" id="tit-logo">Equipe de Ponta</a> -->
+                <a href="#">Equipe de Ponta</a>
                 <ul>
                     <li><a href="#sobre" class="font-google">Sobre</a></li>
                     <li><a href="#servicos">Serviços</a></li>
@@ -45,13 +35,16 @@
         </nav>
 
             <header id="topo">
-                <h1>Equipe de Ponta</h1>
+                <!-- Evento Javascript inline -->
+                <h1 onclick="alert('Olá mundo!')">Equipe de Ponta</h1>
                 <p>
                 Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
                 Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
                 Segurança da Informação também é uma especialidade que dominamos.               
                 </p>
-                <a href="#servicos">Ver mais...</a>
+                <!-- Tranformar esse link em um botão com o css criando uma classe -->
+                    <a class="botao" href="#servicos">Ver mais...</a>
+                <!-- Tranformar esse link em um botão com o css criando uma classe -->
             </header>
 
             <section id="sobre">
@@ -60,7 +53,9 @@
                     A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
                     Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!  
                 </p>
-                <a href="#contato">Contrate Agora</a>
+                  <!-- Tranformar esse link em um botão com o css criando uma classe -->
+                    <a class="botao" href="#contato">Contrate Agora</a>
+                  <!-- Tranformar esse link em um botão com o css criando uma classe -->
             </section>
 
             <section id="imagens">
@@ -74,6 +69,7 @@
             </section>
 
             <section id="servicos">
+
                 <h2>Serviços</h2>
                 <div>
                     <img src="./img/desenvolvimento.jpg" alt="Tela de Computado." title="Desenvolvimento WEB" width="20%">
@@ -149,5 +145,81 @@
                 <p>Todos os direitos reservados. 2021&copy;</p>
             </footer>
 
+            <script>
+                // ...Comentário de linha
+                /**
+                 * ...Comentário de Bloco
+                **/
+                console.log('MSG GERADA NO BODY ' + ' Olá Mundo')
+            </script>
+        
+
     </body>
+
 </html>        
+
+                <!--
+
+
+                <table border="1">
+                    <thead>
+                        <caption>
+                            INFO
+                        </caption>
+                        <tr>
+                            <th>ID</th>
+                            <th>Fabricante</th>
+                            <th>Modelo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ford</td>
+                            <td>Ka</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>GM</td>
+                            <td>Celta</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>FIAT</td>
+                            <td>UNO</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                INFORMAÇÕES DAS MONTADORAS
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+                    Tabela básica padrão
+                <table border="1">
+                    <tr>
+                        <td>ID</td>
+                        <td>Fabricante</td>
+                        <td>Modelo</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">1</td>
+                        
+                        <td>Ford - Ka</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">2</td>
+                        <td>GM</td>
+                        <td>Celta</td>
+                    </tr>
+                    <tr>
+                        <td>3 - FIAT</td>
+                        <td>UNO</td>
+                    </tr>
+
+                </table>
+-->
