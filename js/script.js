@@ -78,4 +78,30 @@
 
 */
 
+// function ligar() {
+//     document.getElementById("lampada-img").src="./img/pic_on.gif" 
+// }
+// function desligar() {
+//     document.getElementById("lampada-img").src="./img/pic_off.gif" 
+// }
+
+
+/*
+    Melhorar o processo!
+    Transformar em uma única função e umúnico botão!
+    Utilizando a passagem de parâmetros!
+
+*/
+
+function interruptor(){
+    let textoBotao = document.getElementById("botao-lampada").innerHTML
+    if(textoBotao == "Ligar"){
+        document.getElementById("lampada-img").src = "./img/pic_on.gif"
+        document.getElementById("botao-lampada").innerHTML = "Desligar"
+    }else{
+        document.getElementById("lampada-img").src = "./img/pic_off.gif"
+        document.getElementById("botao-lampada").innerHTML = "Ligar"
+    }
+}
+
 

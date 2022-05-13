@@ -10,7 +10,7 @@ Declarar para o body fon family Nunito, sans-serif e color: #1c1c1c
 body{
 	font-family: 'Nunito', sans-serif;
 	color: #1c1c1c;
-	background-color: dodgerblue;
+	background-color: rgb(30, 144, 255);
 }
 
 
